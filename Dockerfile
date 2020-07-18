@@ -1,0 +1,3 @@
+ARG VARIABLE_1=5
+FROM alpine:3.7
+RUN echo $VARIABLE_1
